@@ -734,7 +734,6 @@ $(function(){
 
 	// 右侧
 	sw=$(window).width();
-
 	$('.rightSidebar').css({'height':sw+'px'});
 
 
@@ -862,6 +861,9 @@ $(function(){
 		},1)
 	})
 
+
+
+
 	// 左侧滚动监听
 	// 换图标
 	$('.leftnav .floorBack').hover(
@@ -909,7 +911,7 @@ $(function(){
 				'width':'30px'
 			},300,function(){
 				$('.leftnav .floor1 a').css({'display':'none'})
-				myscroll();
+				// myscroll();
 			});
 		}
 	);
@@ -926,7 +928,7 @@ $(function(){
 				'width':'30px'
 			},300,function(){
 				$('.leftnav .floor2 a').css({'display':'none'})
-				myscroll();
+				// myscroll();
 			});
 		}
 	);
@@ -943,7 +945,7 @@ $(function(){
 				'width':'30px'
 			},300,function(){
 				$('.leftnav .floor3 a').css({'display':'none'})
-				myscroll();
+				// myscroll();
 			});
 		}
 	);
@@ -960,7 +962,7 @@ $(function(){
 				'width':'30px'
 			},300,function(){
 				$('.leftnav .floor4 a').css({'display':'none'})
-				myscroll();
+				// myscroll();
 			});
 		}
 	);
@@ -977,7 +979,7 @@ $(function(){
 				'width':'30px'
 			},300,function(){
 				$('.leftnav .floor5 a').css({'display':'none'})
-				myscroll();
+				// myscroll();
 
 
 			});
@@ -1047,7 +1049,7 @@ $(function(){
 	}
 
 
-
+//BUG 鼠标点击之后显示几楼而不是具体名字
 
 
 

@@ -1861,6 +1861,9 @@ body{
 .rightSidebar .return:hover{
 	background: #c00;
 }
+
+
+
 /*左侧滚动监听*/
 .leftnav{
 	width: 40px;
@@ -1870,32 +1873,7 @@ body{
 	left: 20px;
 	display: none;
 }
-.leftnav .floor1{
-	width: 30px;
-	height: 30px;
-	background: #fff;
-	border-radius: 30px;
-	margin-bottom: 2px;
-	cursor: pointer;
-}
-
-.leftnav .floor2{
-	width: 30px;
-	height: 30px;
-	background: #eee;
-	border-radius: 30px;
-	margin-bottom: 2px;
-	cursor: pointer;
-}
-.leftnav .floor3{
-	width: 30px;
-	height: 30px;
-	background: #eee;
-	border-radius: 30px;
-	margin-bottom: 2px;
-	cursor: pointer;
-}
-.leftnav .floor4{
+.leftnav .floor{
 	width: 30px;
 	height: 30px;
 	background: #eee;
@@ -1904,116 +1882,42 @@ body{
 	cursor: pointer;
 }
 
-.leftnav .floor5{
+
+
+.leftnav .floor a{
+	display: none;
 	width: 30px;
 	height: 30px;
-	background: #eee;
-	border-radius: 30px;
-	margin-bottom: 2px;
-	cursor: pointer;
-}
-.leftnav .floorBack{
-	width: 30px;
-	height: 30px;
-	background: #eee;
-	border-radius: 30px;
-	margin-bottom: 2px;
-	cursor: pointer;
+	overflow: hidden;
+	position: absolute;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 30px;
 }
 
 .leftnav .floor1 a{
-	display: none;
-	width: 30px;
-	height: 30px;
-	overflow: hidden;
 	background: #d43d4e;
-	position: absolute;
-    /*left: 0;*/
-    /*top: 0;*/
-    color: #fff;
-    /*font-size: 12px;*/
-    text-align: center;
-    border-radius: 30px;
-    line-height: 30px;
-    /*text-decoration: none;*/
-    /*cursor: pointer;*/
 }
 
 .leftnav .floor2 a{
-	display: none;
-	width: 30px;
-	height: 30px;
-	overflow: hidden;
 	background: #c2782f;
-	position: absolute;
-    /*left: 0;*/
-    /*top: 0;*/
-    color: #fff;
-    /*font-size: 12px;*/
-    text-align: center;
-    border-radius: 30px;
-    line-height: 30px;
-    /*text-decoration: none;*/
-    /*cursor: pointer;*/
 }
 
 .leftnav .floor3 a{
-	display: none;
-	width: 30px;
-	height: 30px;
-	overflow: hidden;
 	background: #296693;
 	position: absolute;
-    /*left: 0;*/
-    /*top: 0;*/
-    color: #fff;
-    /*font-size: 12px;*/
-    text-align: center;
-    border-radius: 30px;
-    line-height: 30px;
-    /*text-decoration: none;*/
-    /*cursor: pointer;*/
 }
 
 .leftnav .floor4 a{
-	display: none;
-	width: 30px;
-	height: 30px;
-	overflow: hidden;
 	background: #6c9d0e;
 	position: absolute;
-    /*left: 0;*/
-    /*top: 0;*/
-    color: #fff;
-    /*font-size: 12px;*/
-    text-align: center;
-    border-radius: 30px;
-    line-height: 30px;
-    /*text-decoration: none;*/
-    /*cursor: pointer;*/
 }
 
 .leftnav .floor5 a{
-	display: none;
-	width: 30px;
-	height: 30px;
-	overflow: hidden;
 	background: #fe7a65;
 	position: absolute;
-    /*left: 0;*/
-    /*top: 0;*/
-    color: #fff;
-    /*font-size: 12px;*/
-    text-align: center;
-    border-radius: 30px;
-    line-height: 30px;
-    /*text-decoration: none;*/
-    /*cursor: pointer;*/
 }
-
-
-
-
 
 
 .leftnav .floor1 .newIndexIcon{
