@@ -101,7 +101,7 @@ $(function(){
 
 
 
-	// contentfirst
+	//  主体 contentfirst
 	$('.indexTabBoxBottom .indexTabCon').first().show();
 
 	$('.indexTabBoxTop ul li').mouseenter(function(){
