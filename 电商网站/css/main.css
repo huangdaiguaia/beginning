@@ -1,0 +1,482 @@
+/*¹«ÓÃ*/
+.comWidth{
+	width: 1000px;
+	margin: 0 auto;
+}
+.leftArea{
+	float: left;
+}
+.rightArea{
+	float: right;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+/*topBar*/
+.topBar{
+	height: 31px;
+	background: #F7F7F7;
+	line-height: 31px;
+}
+.collection{
+	background: url(../img/icon/collection.jpg) left center no-repeat;
+	padding-left: 19px;
+	font-weight: bold;
+}
+.topBar a:hover{
+	color: red;
+}
+
+/*logo*/
+.logoBar{
+	height: 85px;
+	background: #1D7AD9;
+}
+.logo{
+	padding-left:41px; 
+	padding-top:13px;
+}
+
+/*searchBox*/
+.searchBox{
+	width: 430px;
+	height: 35px;
+	padding-top: 25px;
+	padding-left: 145px;
+}
+.searchText{
+	height: 35px;
+	width: 350px;
+	border: none;
+	line-height:35px\9;/*css hack  \9 ´ú±íËùÓÐµÄieä¯ÀÀÆ÷*/ 
+	padding: 0 5px;
+}
+.searchBtn{
+	width: 70px;
+	height: 35px;
+	background: #FF8800;
+	border: none;
+	font:14px Î¢ÈíÑÅºÚ;
+	color: #FFF;
+}
+
+/*shopText*/
+.shopCar{
+	width: 145px;
+	height: 35px;
+	background: #FF8800;
+	margin-top: 23px;
+	font: 14px/35px Î¢ÈíÑÅºÚ;
+	color: #fff;
+	margin-right: 59px;
+}
+.shopText{
+	height: 100%;
+	width: 49px;
+	background: url(../img/icon/car.jpg) 10px center no-repeat;
+	padding-left: 40px;
+}
+.shopNum{
+	width: 27px;
+	height: 35px;
+	background: url(../img/icon/shopNum.jpg) 33px center no-repeat;
+	text-align: right;
+	padding-right: 29px;
+}
+
+/*navBox*/
+.navBox{
+	width: 100%;
+	height: 35px;
+	background: #1369C0;
+}
+.navBox h3{
+	height: 35px;
+	width: 190px;
+	background: #1369C0;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+.shopClass_icon{
+	width: 11px;
+	height: 7px;
+	background: url(../img/icon/xiala.jpg) no-repeat;
+	display: inline-block;
+	margin-left: 10px;
+}
+.navBox ul li{
+	float: left;
+	width: 100px;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+.navBox ul li.active{
+	background-color: #4593FD;
+}
+.navBox ul a{
+	color: #fff;
+}
+
+.shopClassShop{
+	width: 190px;
+	height: 325px;
+	background: #4593FD;
+}
+.shopClassShop dl{
+	height: 53px;
+	padding: 5px 10px;
+	border-bottom: 1px solid #3487F2;
+	border-top: 1px solid #5AA1FE;
+}
+.shopClassShop dl dt{
+	height: 20px;
+	line-height: 21px;
+	font-size: 14px;
+	color: #FFf;
+}
+.shopClassShop dl dt{
+	background: url(../img/icon/xiala2.jpg) no-repeat right center;
+}
+.shopClassShop dl dt a{
+	color: #fff;
+	font-size: 14px;
+}
+
+.shopClassShop dl dd{
+	font-size: 12px;
+	line-height: 27px;
+}
+.shopClassShop dl dd a{
+	color: #fff;
+}
+
+.shopClassItem .aLink{
+	display: inline-block;
+	width: 45px;
+	height: 22px;
+	border-radius: 10px;
+	background: #106AC0;
+}
+.shopClassItem .aLink{
+	text-decoration: underline;
+}
+/*shopClassList*/
+.shopClass{
+	position: relative;
+}
+.shopClassList{
+	width: 570px;
+	/*height: 380px;*/
+	position: absolute;
+	left: 190px;
+	top: 35px;
+	border:1px solid #eee;
+	font-size: 14px;
+}
+.shopClassList .content{
+	padding: 0 20px;
+}
+.shopClassList dl{
+	padding: 10px 20px;
+	border-bottom: 1px solid #eee;
+}
+.shopClassList dt a{
+	font:14px ;
+	color: #4B87D9;
+	font-weight: bold;
+}
+.shopClassList dt{
+	line-height: 24px;
+}
+.shopClassList dd{
+	margin-top: -24px ;
+	padding-left: 68px;
+	line-height: 24px;
+	margin-left: 10px;
+}
+.shopClassList dd a {
+	color: #656565;
+	margin-left: 10px;
+}
+.shopListLinks{
+	padding: 10px 20px
+}
+.shopListLinks a{
+	display: inline-block;
+	padding: 5px;
+	color: #FFf;
+	background: #2785E6;
+	margin-left: 10px;
+	line-height: 20px;
+}
+.shopListLinks span{
+	width: 15px;
+	height: 10px;
+	display: inline-block;
+	background: url(../img/icon/xiala2.jpg) no-repeat right center;
+}
+
+
+.listBig,.listBig img{
+	width: 810px;
+	height: 325px;
+}
+.imgBoxBig{
+	width: 2430px;
+	height: 325px;
+}
+
+.listSm,.listSm img{
+	width: 190px;
+	height: 400px;
+}
+.imgBoxSm{
+	width: 570px;
+	height: 400px;
+}
+
+.bannerList{
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+.bannerList .imgBox{
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+.bannerList ul li{
+	float: left;
+}
+
+
+.bannerList .numBox{
+	position: absolute;
+	left: 0;
+	bottom:15px;
+	text-align: center;
+	width: 100%;
+}
+.bannerList .numBox a{
+	width: 20px;
+	height: 5px;
+	display: inline-block;
+	background: #fff;
+}
+.bannerList .numBox a.active{
+	background: #FF7700;
+}
+
+
+/*shopList */
+.shopTit{
+	margin:10px auto;
+	height: 44px;
+	line-height: 44px;
+}
+.shopTit span{	
+	float: left;
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	background: url(../img/shopTit.jpg) no-repeat left center;
+}
+.shopTit h3{
+	float: left;
+	font-size: 24px;
+	font-family: Î¢ÈíÑÅºÚ;
+	line-height: 44px;
+	padding-left: 20px;
+}
+.shopTit a{
+	float: right;
+
+}
+.shopTit a:hover{
+	text-decoration: underline;
+}
+
+
+.rightAreaTop ul li{
+	float: left;
+	width: 179px;
+	height: 210px;
+	border:1px solid #eee;
+	border-left: none;
+	padding: 40px 10px 10px;
+}
+.rightAreaTop h3{
+	font-size: 16px;
+	text-align: center;
+}
+.rightAreaTop p{
+	font-size: 14px;
+	text-align: center;
+	color: #FF7300;
+	line-height: 30px;
+}
+
+.rightAreaBottom .rightBottomList{
+	float: left;
+	width: 179px;
+	height: 116px;
+	border:1px solid #eee;
+	border-left: none;
+	padding: 10px;
+}
+.rightAreaBottom img{
+	width: 90px;
+	height: 90px;
+}
+.rightAreaBottom h3{
+	font-size: 16px;
+	text-align: center;
+}
+.rightAreaBottom p{
+	font-size: 14px;
+	text-align: center;
+	color: #FF7300;
+	line-height: 30px;
+}
+.rightAreaBottom .smListL{
+	width: 90px;
+	float: left;
+}
+.rightAreaBottom .smListR{
+	width: 89px;
+	float: left;
+}
+
+.footer{
+	background: #D4D4D4;
+	margin-top:40px;
+	text-align: center;
+	padding: 50px 0;
+	font-size: 13px;A
+}
+.footer p{
+	line-height: 30px;
+}
+.footer a{
+	color: #000;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+.footer img{
+	margin-left: 20px;
+}
+
+
+/*²úÆ··ÖÀàÒ³*/
+-------------------------------------------------------------------------------
+
+.products .leftArea{
+	width: 188px;
+	/*float: left;*/
+}
+/*¿ÉÒÔÃ»ÓÐwidth,µ«²»ÄÜÃ»ÓÐleftNav ·ñÔòÉèÖÃ²»ÁË¿í   ºóÀ´ÓÐ²»ÊÇÕâÑùÁË ÔÎ*/
+.products .leftArea .leftNav{
+	width: 188px;
+	border:1px solid #eee;
+	background: #F3F3F3;
+}
+
+.products .leftNav .title{
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+	padding: 5px 0;
+	border-bottom: 1px solid #EEE;
+}
+.products .leftNav .leftList h3{
+	font-size: 12px;
+	text-align: left;
+	line-height: 25px;
+}
+.products .leftNav .leftList{
+	padding: 10px 20px;
+	border-bottom:1px dotted #eee;
+	margin-bottom: -1px;  /*½â¾ö×îºóÒ»¸ñ¼ÈÓÐsolidÓÖÓÐdottedµÄÎÊÌâ È¥µôÁËdotted*/
+}
+.products .leftListSm li{
+	/*float: left;*/
+	width: 50%;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+
+.productsMain h3{
+	width: 180px;
+	font-size: 16px;
+	line-height: 30px;
+	border-bottom: 2px solid #096DBA;
+	margin-left: 10px;
+	padding-left: 10px;
+	margin: 20px 20px 0;
+}
+.proMainList{
+	/*float: left;*/
+	/*width: 25%;*/
+	padding: 10px 20px;
+	border-top: 1px solid #EEE;
+}
+.productsItem{
+	width: 25%;
+	float: left;
+}
+
+.proMainList img{
+	width: 180px;
+	height: 160px;
+}
+.proMainList p{
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+}
+.proMainList p a{
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+}
+.proMainList p a:hover{
+	text-decoration: underline;
+}
+
+.proMainList .money{
+	color: #c00;
+}
+.proMainList .stars{
+	width: 13px;
+	height: 12px;
+	background: url(../img/icon/star.png) no-repeat left top;
+	display: inline-block;
+	margin-left: 3px;
+}
+.products .bannerList{
+	float: none;
+}
+.products .rightArea{
+	width: 810px;
+}
+.productsMain{
+	float: left;
+}
+
+
+/*产品筛选*/
+.proSelect dt{
+	line-height: 30px;
+	text-align: right;
+	width: 75px;
+	font-size: 14px;
+}
+

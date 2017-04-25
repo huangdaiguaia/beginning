@@ -7,6 +7,7 @@ li{
 }
 a{
 	text-decoration: none;
+	color:#656565;
 }
 img{
 	border:none;
@@ -16,13 +17,22 @@ textarea{
 }
 input,select,textarea{
 	outline: none;
+	border: none;
 }
 /*清除浮动*/
 .clearfix:after{
 	content: "";
 	display: block;
 	clear:both;
+	/*height: 0;*/
 }
 .clearfix{
 	zoom:1;
+}
+
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
 }
